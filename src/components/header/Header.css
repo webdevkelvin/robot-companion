@@ -1,0 +1,14 @@
+.header {
+  align-self: stretch;
+  background-color: #1c204b;
+  color: #fff;
+  padding-inline: 2rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.header h1 {
+  font-size: 1.75rem;
+}

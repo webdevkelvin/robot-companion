@@ -1,0 +1,42 @@
+.card {
+  min-width: 30rem;
+  padding: 2.5rem;
+  background-color: #1c204b;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.2s ease-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card__img {
+  display: block;
+  max-width: 100%;
+  border-radius: 50%;
+  background-color: #5747ea;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+@media (max-width: 35.5rem) {
+  .card {
+    flex-direction: column;
+    min-width: 15rem;
+    height: auto;
+    padding: 1.5rem;
+    text-align: center;
+  }
+}

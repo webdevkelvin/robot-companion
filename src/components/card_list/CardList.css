@@ -1,0 +1,13 @@
+.card-list {
+  margin-inline: auto;
+  color: #fff;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 67.5rem) {
+  .card-list {
+    grid-template-columns: 1fr;
+  }
+}
